@@ -3,3 +3,6 @@
 const {
  rules: {
     "@typescript-eslint/naming-convention":
+      airbnbTypeScriptNamingConventionRules,
+  },
+} = require("eslint-config-airbnb-typescript/lib/shared")
