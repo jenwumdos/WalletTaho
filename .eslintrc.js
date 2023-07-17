@@ -8,3 +8,5 @@ const {
 } = require("eslint-config-airbnb-typescript/lib/shared")
 
 const {
+  rules: { "no-param-reassign": airbnbNoParamReassignRules },
+} = require("eslint-config-airbnb-base/rules/best-practices")
