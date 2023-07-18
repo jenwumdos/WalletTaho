@@ -10,3 +10,6 @@ const {
 const {
   rules: { "no-param-reassign": airbnbNoParamReassignRules },
 } = require("eslint-config-airbnb-base/rules/best-practices")
+
+const {
+  rules: { "no-param-reassign": airbnbNoParamReassignRules },
