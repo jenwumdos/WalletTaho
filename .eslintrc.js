@@ -13,3 +13,11 @@ const {
 
 const {
   rules: { "no-param-reassign": airbnbNoParamReassignRules },
+} = require("eslint-config-airbnb-base/rules/best-practices")
+/* eslint-enable @typescript-eslint/no-var-requires */
+
+module.exports = {
+  extends: [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
