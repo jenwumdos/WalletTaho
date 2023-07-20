@@ -25,3 +25,4 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
+  plugins: ["no-only-tests"],
