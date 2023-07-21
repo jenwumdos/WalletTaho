@@ -28,3 +28,4 @@ module.exports = {
   plugins: ["no-only-tests"],
   globals: {
     document: "readonly",
+    window: "readonly",
