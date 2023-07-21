@@ -26,3 +26,5 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   plugins: ["no-only-tests"],
+  globals: {
+    document: "readonly",
