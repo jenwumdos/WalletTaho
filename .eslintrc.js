@@ -31,3 +31,5 @@ module.exports = {
     window: "readonly",
   },
   rules: {
+    // Styled-jsx does not play nice with this rule, unfortunately.
+    "react/jsx-one-expression-per-line": [0],
