@@ -33,3 +33,5 @@ module.exports = {
   rules: {
     // Styled-jsx does not play nice with this rule, unfortunately.
     "react/jsx-one-expression-per-line": [0],
+    // JSX for the extension is explicitly rejected by Dan Abramov with good
+    // reasoning @
