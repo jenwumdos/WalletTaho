@@ -35,3 +35,4 @@ module.exports = {
     "react/jsx-one-expression-per-line": [0],
     // JSX for the extension is explicitly rejected by Dan Abramov with good
     // reasoning @
+    // https://github.com/airbnb/javascript/pull/985#issuecomment-239145468 .
