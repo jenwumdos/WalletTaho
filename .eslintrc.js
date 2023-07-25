@@ -36,3 +36,5 @@ module.exports = {
     // JSX for the extension is explicitly rejected by Dan Abramov with good
     // reasoning @
     // https://github.com/airbnb/javascript/pull/985#issuecomment-239145468 .
+    // The rule is also mostly irrelevant to this codebase due to TypeScript
+    // usage (where .tsx is required).
