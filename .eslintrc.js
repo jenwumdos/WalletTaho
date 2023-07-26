@@ -38,3 +38,5 @@ module.exports = {
     // https://github.com/airbnb/javascript/pull/985#issuecomment-239145468 .
     // The rule is also mostly irrelevant to this codebase due to TypeScript
     // usage (where .tsx is required).
+    "react/jsx-filename-extension": [0],
+    "@typescript-eslint/naming-convention": [
