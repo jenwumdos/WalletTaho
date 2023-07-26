@@ -40,3 +40,4 @@ module.exports = {
     // usage (where .tsx is required).
     "react/jsx-filename-extension": [0],
     "@typescript-eslint/naming-convention": [
+      ...airbnbTypeScriptNamingConventionRules,
