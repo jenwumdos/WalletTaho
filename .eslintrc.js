@@ -41,3 +41,5 @@ module.exports = {
     "react/jsx-filename-extension": [0],
     "@typescript-eslint/naming-convention": [
       ...airbnbTypeScriptNamingConventionRules,
+      // Allow underscore-only identifiers to indicate ignored positional variables.
+      {
