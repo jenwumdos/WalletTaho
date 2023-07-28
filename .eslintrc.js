@@ -43,3 +43,5 @@ module.exports = {
       ...airbnbTypeScriptNamingConventionRules,
       // Allow underscore-only identifiers to indicate ignored positional variables.
       {
+        selector: "variable",
+        format: null,
