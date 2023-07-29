@@ -45,3 +45,5 @@ module.exports = {
       {
         selector: "variable",
         format: null,
+        filter: {
+          regex: "^_+$",
