@@ -47,3 +47,9 @@ module.exports = {
         format: null,
         filter: {
           regex: "^_+$",
+          match: true,
+        },
+        custom: {
+          regex: "^_+$",
+          match: true,
+        },
