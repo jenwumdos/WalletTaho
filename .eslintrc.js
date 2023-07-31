@@ -53,3 +53,7 @@ module.exports = {
           regex: "^_+$",
           match: true,
         },
+      },
+    ],
+    // TypeScript allows us to declare props that are non-optional internally
+    // but are interpreted as optional externally if they have defaultProps
