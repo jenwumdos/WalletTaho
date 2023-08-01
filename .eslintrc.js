@@ -57,3 +57,6 @@ module.exports = {
     ],
     // TypeScript allows us to declare props that are non-optional internally
     // but are interpreted as optional externally if they have defaultProps
+    // defined; the following two adjustments disable eslint-plugin-react
+    // checks that predate this ability for TS and that no longer apply.
+    "react/default-props-match-prop-types": [
