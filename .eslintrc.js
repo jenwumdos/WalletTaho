@@ -60,3 +60,5 @@ module.exports = {
     // defined; the following two adjustments disable eslint-plugin-react
     // checks that predate this ability for TS and that no longer apply.
     "react/default-props-match-prop-types": [
+      2,
+      { allowRequiredDefaults: true },
