@@ -62,3 +62,5 @@ module.exports = {
     "react/default-props-match-prop-types": [
       2,
       { allowRequiredDefaults: true },
+    ],
+    "react/require-default-props": [0],
