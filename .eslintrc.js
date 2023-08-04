@@ -64,3 +64,5 @@ module.exports = {
       { allowRequiredDefaults: true },
     ],
     "react/require-default-props": [0],
+    // Shared components may have labels associated externally in a way ESLint
+    // does not detect.
