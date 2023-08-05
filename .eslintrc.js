@@ -66,3 +66,5 @@ module.exports = {
     "react/require-default-props": [0],
     // Shared components may have labels associated externally in a way ESLint
     // does not detect.
+    "jsx-a11y/label-has-associated-control": [
+      2,
