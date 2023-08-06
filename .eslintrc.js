@@ -68,3 +68,5 @@ module.exports = {
     // does not detect.
     "jsx-a11y/label-has-associated-control": [
       2,
+      {
+        controlComponents: ["SharedAssetInput"],
