@@ -70,3 +70,7 @@ module.exports = {
       2,
       {
         controlComponents: ["SharedAssetInput"],
+      },
+    ],
+    // Console usage should use background/lib/logger.ts, which allows users to
+    // share logs with devs if desired.
