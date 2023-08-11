@@ -76,3 +76,5 @@ module.exports = {
     // share logs with devs if desired.
     "no-console": ["error"],
     // Don't slap build files for importing devDependencies.
+    "import/no-extraneous-dependencies": [
+      "error",
