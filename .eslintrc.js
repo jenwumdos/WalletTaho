@@ -78,3 +78,5 @@ module.exports = {
     // Don't slap build files for importing devDependencies.
     "import/no-extraneous-dependencies": [
       "error",
+      { devDependencies: ["!+(src/api|ui)/**/*.+(ts|js)"] },
+    ],
