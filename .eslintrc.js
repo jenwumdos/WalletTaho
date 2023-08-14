@@ -80,3 +80,5 @@ module.exports = {
       "error",
       { devDependencies: ["!+(src/api|ui)/**/*.+(ts|js)"] },
     ],
+    // dissalow it.only, assert.only, etc..
+    "no-only-tests/no-only-tests": ["error"],
