@@ -82,3 +82,5 @@ module.exports = {
     ],
     // dissalow it.only, assert.only, etc..
     "no-only-tests/no-only-tests": ["error"],
+    // Add known-safe exceptions to no-param-reassign.
+    "no-param-reassign": [
