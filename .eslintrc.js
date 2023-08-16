@@ -84,3 +84,5 @@ module.exports = {
     "no-only-tests/no-only-tests": ["error"],
     // Add known-safe exceptions to no-param-reassign.
     "no-param-reassign": [
+     airbnbNoParamReassignRules[0],
+      {
