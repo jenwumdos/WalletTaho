@@ -86,3 +86,4 @@ module.exports = {
     "no-param-reassign": [
      airbnbNoParamReassignRules[0],
       {
+        props: airbnbNoParamReassignRules[1].props,
