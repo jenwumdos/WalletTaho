@@ -88,3 +88,5 @@ module.exports = {
       {
         props: airbnbNoParamReassignRules[1].props,
         ignorePropertyModificationsFor:
+          airbnbNoParamReassignRules[1].ignorePropertyModificationsFor,
+        ignorePropertyModificationsForRegex: [
