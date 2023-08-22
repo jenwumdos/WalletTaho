@@ -90,3 +90,4 @@ module.exports = {
         ignorePropertyModificationsFor:
           airbnbNoParamReassignRules[1].ignorePropertyModificationsFor,
         ignorePropertyModificationsForRegex: [
+          ...(airbnbNoParamReassignRules[1]
