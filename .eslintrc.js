@@ -93,3 +93,6 @@ module.exports = {
           ...(airbnbNoParamReassignRules[1]
             .ignorePropertyModificationsForRegex || []),
           "^immer", // For redux-toolkit reducers using immer.
+        ],
+      },
+    ],
