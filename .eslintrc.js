@@ -103,3 +103,5 @@ module.exports = {
         argsIgnorePattern: "^_",
         varsIgnorePattern: "^_",
       },
+    ],
+    "no-unused-vars": "off",
