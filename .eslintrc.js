@@ -107,3 +107,5 @@ module.exports = {
     "no-unused-vars": "off",
   },
   ignorePatterns: [
+    "dist/",
+    "extension-reload.js",
