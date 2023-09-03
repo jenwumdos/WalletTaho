@@ -109,3 +109,4 @@ module.exports = {
   ignorePatterns: [
     "dist/",
     "extension-reload.js",
+    "**/validate/*.js",
