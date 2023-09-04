@@ -110,3 +110,4 @@ module.exports = {
     "dist/",
     "extension-reload.js",
     "**/validate/*.js",
+    "**/local-chain/**",
