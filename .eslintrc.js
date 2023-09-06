@@ -112,3 +112,5 @@ module.exports = {
     "**/validate/*.js",
     "**/local-chain/**",
     "!.github",
+    "size-plugin.json",
+  ],
