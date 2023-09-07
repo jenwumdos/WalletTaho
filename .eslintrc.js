@@ -114,3 +114,4 @@ module.exports = {
     "!.github",
     "size-plugin.json",
   ],
+}
