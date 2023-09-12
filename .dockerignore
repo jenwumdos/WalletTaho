@@ -1,2 +1,4 @@
 .git
 node_modules
+ui/node_modules
+background/node_modules
