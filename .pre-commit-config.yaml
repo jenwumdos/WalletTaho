@@ -2,3 +2,4 @@ repos:
   - repo: local
     hooks:
       - id: lint-js
+        name: "lint typescript and javascript"
