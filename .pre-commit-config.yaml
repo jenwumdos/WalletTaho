@@ -4,3 +4,4 @@ repos:
       - id: lint-js
         name: "lint typescript and javascript"
         entry: /usr/bin/env npx eslint
+        files: '\.jsx?$|\.tsx?$'
