@@ -8,3 +8,5 @@ repos:
         language: script
         description: "Checks JS/TS code according to the package's linter configuration"
   - repo: local
+    hooks:
+      - id: lint-config
