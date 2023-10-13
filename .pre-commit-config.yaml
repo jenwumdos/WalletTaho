@@ -11,3 +11,4 @@ repos:
     hooks:
       - id: lint-config
         name: "lint config files"
+        entry: /usr/bin/env npx prettier -c
