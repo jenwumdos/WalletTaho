@@ -13,3 +13,4 @@ repos:
         name: "lint config files"
         entry: /usr/bin/env npx prettier -c
         files: '\.json$|\.yaml$|\.toml$|\.yml$'
+        language: script
