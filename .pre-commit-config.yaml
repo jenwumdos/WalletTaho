@@ -14,3 +14,5 @@ repos:
         entry: /usr/bin/env npx prettier -c
         files: '\.json$|\.yaml$|\.toml$|\.yml$'
         language: script
+        description: "Checks config files according to the package's linter configuration"
+  - repo: local
