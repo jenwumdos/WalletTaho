@@ -16,3 +16,5 @@ repos:
         language: script
         description: "Checks config files according to the package's linter configuration"
   - repo: local
+    hooks:
+      - id: lint-docs
