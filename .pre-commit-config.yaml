@@ -18,3 +18,4 @@ repos:
   - repo: local
     hooks:
       - id: lint-docs
+        name: "lint documentation files"
