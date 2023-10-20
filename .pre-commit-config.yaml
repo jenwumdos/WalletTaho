@@ -19,3 +19,4 @@ repos:
     hooks:
       - id: lint-docs
         name: "lint documentation files"
+        entry: /usr/bin/env npx prettier -c
