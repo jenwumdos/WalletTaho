@@ -20,3 +20,4 @@ repos:
       - id: lint-docs
         name: "lint documentation files"
         entry: /usr/bin/env npx prettier -c
+        files: '\.md$'
