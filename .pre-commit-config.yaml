@@ -22,3 +22,4 @@ repos:
         entry: /usr/bin/env npx prettier -c
         files: '\.md$'
         language: script
+        description: "Checks documentation files according to the package's linter configuration"
