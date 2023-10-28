@@ -3,3 +3,4 @@ dist
 ui/_locales/**/*.json
 !.github
 ci/cache
+.vscode
