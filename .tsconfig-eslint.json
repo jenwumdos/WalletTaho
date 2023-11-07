@@ -7,3 +7,5 @@
     "**/*.tsx",
     ".github/**/*.js"
   ],
+  "exclude": [
+    "node_modules",
