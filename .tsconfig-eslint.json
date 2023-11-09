@@ -11,3 +11,5 @@
     "node_modules",
     "dist",
     "**/validate/*.js",
+    "**/local-chain/**",
+    "ci/cache"
