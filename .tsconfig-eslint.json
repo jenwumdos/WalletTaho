@@ -13,3 +13,5 @@
     "**/validate/*.js",
     "**/local-chain/**",
     "ci/cache"
+  ]
+}
