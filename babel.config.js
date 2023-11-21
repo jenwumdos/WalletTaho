@@ -2,3 +2,5 @@
 module.exports = {
   plugins: ["styled-jsx/babel"],
   presets: [
+    [
+      "@babel/env",
