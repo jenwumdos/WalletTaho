@@ -11,3 +11,5 @@ module.exports = {
       },
     ],
     // Because babel is used by Webpack to load the Webpack config, which is
+    // TS.
+    "@babel/typescript",
