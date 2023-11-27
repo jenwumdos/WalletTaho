@@ -14,3 +14,4 @@ module.exports = {
     // TS.
     "@babel/typescript",
   ],
+  babelrcRoots: [".", "ui/*", "background/*", "provider-bridge/*"],
